@@ -1,0 +1,123 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.312);
+    width: 560px;
+    margin: auto;
+    border-width: 1px;
+    background-color: rgba(135, 207, 235, 0.05);
+    padding: 0 10px;
+}
+
+.createcontainer{
+    margin: 50px 0 0 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+textarea{
+    border: none;
+    outline: none;
+    background-color: rgba(235, 170, 135, 0.2);
+    border-radius: 6px;
+    resize: none;
+    width: 450px;
+    height: 85px;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+textarea:focus,
+textarea:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 255, 0.2), -2px -2px 10px rgba(0, 0, 255, 0.2);
+}
+.editfield{
+    width: 95%;
+    margin: 5px;
+}
+.postbut{
+    background-color: rgba(0, 119, 255, 0.482);
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+.savebut{
+    background-color: rgba(0, 119, 255, 0.482);
+    border: none;
+    margin: 1px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.cancelbut{
+    background-color: gray;
+    border: none;
+    margin: 1px;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+small{
+    color:gray;
+}
+.title .material-icons{
+    color: gray;
+    font-size: 50px;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.singlecmd{
+    border: 1px solid rgba(128, 128, 128, 0.312);
+    padding: 0 10px;
+}
+.singlecmd:hover{
+    transform: scale(1.01);
+}
+.material-icons{
+    cursor: pointer;
+    color: skyblue;
+    font-size: 26px;
+    margin: 0 8px;
+}
+
+.cmdfield{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconc,
+.iconf,
+.iconl{
+    color: gray;
+}
+.icons{
+    color: white;
+}
+.iconc:hover{
+    color: skyblue;
+}
+.iconl:hover{
+    color: red;
+}
+.iconf:hover{
+    color:green
+}
+.icone:hover{
+    color: blue;
+}
+.icond:hover{
+    color: red;
+}
