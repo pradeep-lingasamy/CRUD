@@ -14,7 +14,7 @@ class Createcmd extends Component{
             <div >
                 <form className="createcontainer" onSubmit={this.addpost}  >
                     <div>
-                        <textarea rows='5' cols='50' placeholder="Post your comments" maxLength='250' value={this.state.cmd} onChange={(e)=> this.setState({cmd:e.target.value})}></textarea>
+                        <textarea rows='5' cols='50' placeholder="Type your comments" maxLength='250' value={this.state.cmd} onChange={(e)=> this.setState({cmd:e.target.value})}></textarea>
                     </div>
                     <div>
                         <button className="postbut" disabled={(this.state.cmd?false:true)} style={{backgroundColor:(this.state.cmd?'#0000ff8f':'skyblue')}}><span className="material-icons icons">send</span></button>
